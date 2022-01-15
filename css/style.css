@@ -75,3 +75,7 @@ width: 100% !important;
     color: orange;
    display: inline;
 }
+.div-center{
+    background-color: #292929 !important;
+    align-items: center !important;
+}
