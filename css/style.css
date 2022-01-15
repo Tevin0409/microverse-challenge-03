@@ -1,0 +1,77 @@
+.nav-bar {
+    background-color: #be3144 !important;
+    display: flex;
+    position: fixed;
+    justify-content: end;
+    z-index: 5;
+    top: 0 !important;
+    width: 91rem !important;
+    height: 5rem;
+     
+}
+.nav-bar>a{
+    color: white !important;
+    font-size: 1.5rem;
+    text-align: right;
+}
+.hero-section{
+    height: 100vh;
+    text-align: center;
+    background-color: #292929;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.hero-section>h1{
+    color: #fff;
+    font-size: 4.5rem;
+}
+.hero-section>i{
+    color: #be3144;
+    font-size: 2rem;
+    font-weight: 100 !important;
+}
+.project-section{
+    background-color: #45567d !important;
+
+}
+.project-section>h1{
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+    padding: 3rem;
+    padding-top: 5rem;
+    font-size: 3rem !important;
+}
+.content-card{
+height: 15rem !important;
+width: 100% !important;
+}
+.card-c{
+    background-color: #292929 !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-c>a{
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 1.3rem !important;
+}
+.btn{
+    background-color: #292929 !important;
+    color: #fff !important;
+    font-size: 1.3rem !important;
+}
+.btn:hover{
+    background-color: #be3144 !important;
+}
+.card-c>a>span.arrows{
+    display: none;
+}
+.card-c:hover>a>span.arrows{
+    color: orange;
+   display: inline;
+}
