@@ -26,22 +26,22 @@
 
     -->
   <div class="ui secondary  menu ">
-    <div class="nav-bar right menu ">
-      <a href="" class="ui item">About</a>
-      <a href="" class="ui item">Work</a>
-      <a href="" class="ui item">Contact</a>
+    <div id="navbar" class="nav-bar right menu ">
+      <a href="#hero-section" class="ui item">About</a>
+      <a href="#projects" class="ui item">Work</a>
+      <a href="#profile-link" class="ui item">Contact</a>
     </div>
 
   </div>
-  <div class="hero-section">
+  <div id="welcome-section" class="hero-section">
     <h1>Hey I am Mimic</h1>
     <i>a web developer</i>
   </div>
-  <div class="project-section">
+  <div id="projects" class="project-section">
     <h1>These are some of my projects</h1>
     <div class="ui grid container">
       <div class="five wide column">
-        <div class="ui fluid card">
+        <div class="project-tile ui fluid card">
           <div class="ui  image">
             <img class="content-card" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt=""
               srcset="">
@@ -53,7 +53,7 @@
         </div>
       </div>
       <div class="five wide column">
-        <div class="ui fluid card">
+        <div class="project-tile ui fluid card">
           <div class="ui  image">
             <img class="content-card"
               src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="" srcset="">
@@ -65,7 +65,7 @@
         </div>
       </div>
       <div class="five wide column">
-        <div class="ui card">
+        <div class="project-tile ui fluid card">
           <div class="ui  image">
             <img class="content-card" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt=""
               srcset="">
@@ -77,7 +77,7 @@
         </div>
       </div>
       <div class="five wide column">
-        <div class="ui  card">
+        <div class="project-tile ui fluid card">
           <div class="ui  image">
             <img class="content-card" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt=""
               srcset="">
@@ -89,7 +89,7 @@
         </div>
       </div>
       <div class="five wide column">
-        <div class="ui card">
+        <div class="project-tile ui fluid card">
           <div class="ui  image">
             <img class="content-card" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt=""
               srcset="">
@@ -101,7 +101,7 @@
         </div>
       </div>
       <div class="five wide column">
-        <div class="ui card">
+        <div class="project-tile ui fluid card">
           <div class="ui  image">
             <img class="content-card" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
               alt="" srcset="">
@@ -127,23 +127,62 @@
 
   </div>
   <div class="div-center">
-    <h1 class=>Lets work together</h1>
-    <p>how do you take your coffe</p>
-    <div> 
-      <i class="facebook icon"></i>
-      <i class="github icon"></i>
-      <i class="mobile alternate icon"></i>
-      <i class="at icon"></i>
+    <h1>Lets work together...</h1>
+    <i>How do you take your coffee</i>
+    <div class="socials">
+      <div class="icon-container">
+        <i class="facebook large icon"></i>
+        <p>Facebook</p>
+      </div>
+      <div class="icon-container">
+        <i class="github icon"></i>
+        <a id="profile-link" href="https://github.com/elidotco" target="_blank" rel="noopener noreferrer"></a>
+
+
+      </div>
+      <div class="icon-container">
+        <i class="twitter icon"></i>
+
+        <p>Twitter</p>
+      </div>
+      <div class="icon-container">
+        <i class="at icon"></i>
+        <p>Send a mail</p>
+      </div>
+      <div class="icon-container">
+        <i class="mobile alternate icon"></i>
+        <p>Call me</p>
+
+      </div>
+
+
+
+
+
+
     </div>
-    
-    
+
+
   </div>
-  <div>
-    <footer>
-      <p>this is just a fake profile</p>
-      <p><span>&copy;</span>freecodecamp</p>
-    </footer>
+
+
+  <footer>
+    <div class="s-divider"></div>
+    <div class="ui grid footer-cont container">
+      <div class="left floated  ten wide column">
+
+        <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+
+      </div>
+      <div class="right floated  four wide column">
+        <p><span>&copy;</span>Created for freeCodeCamp</p>
+      </div>
     </div>
+
+
+
+  </footer>
+
 
   <script src="js/index.js"></script>
 </body>
